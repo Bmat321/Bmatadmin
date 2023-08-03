@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 import Add from "../../components/add/Add";
 import DataTable from "../../components/dataTable/DataTable";
-import "./Products.scss";
+import "./products.scss";
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
